@@ -1,5 +1,5 @@
 import "./UserList.css"
-import { BsFillTrashFill } from 'react-icons/Bs';
+import { FaRegTrashAlt } from 'react-icons/Fa';
 import { AiFillEdit } from 'react-icons/Ai';
 
 const UserList = ({users, onUserEdit, onUserDelete}) => {
@@ -20,7 +20,7 @@ const UserList = ({users, onUserEdit, onUserDelete}) => {
 
             <div className="user-list_btn">
               <button className="edit-user_btn" onClick={() => onUserEdit(user)} ><AiFillEdit/></button>
-              <button className="delete-user_btn" onClick={() => onUserDelete(user.id)}><BsFillTrashFill/></button>
+              <button className="delete-user_btn" onClick={() => onUserDelete(user.id)}><FaRegTrashAlt/></button>
             </div>
           </article>
         </ul>
