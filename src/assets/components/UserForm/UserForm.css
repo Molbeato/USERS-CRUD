@@ -1,0 +1,54 @@
+.user-form {
+    position: relative;
+
+    width: 80vw;
+    max-width: 42rem ;
+    background-color: #fff;
+
+    padding: 2rem 2rem 38px;
+}
+
+.user-form__title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.user-form_close-btn {
+    position: absolute;
+    top: 3.2em;
+    right: 3.2rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.user-form_close-btn:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+    background-color: rgba(52, 47, 189, 0.955);
+    color: white;
+}
+
+.user-form_input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-form_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.user-form_submit{
+    padding: 10px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;    
+}

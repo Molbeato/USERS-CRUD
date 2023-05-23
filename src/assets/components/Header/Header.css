@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+}
+
+.header-create_btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    color: white;
+    transition: all 0.25s;
+    height: 50px;
+    width: 130px;
+    size: 500px;
+    font-size: 14px;
+    background-color: rgba(52, 47, 189, 0.955);
+}
+
+.header-create_btn:hover{
+    background-color: transparent;
+    border: solid rgba(115, 113, 113, 0.23) 2px;
+    color: black;
+}
